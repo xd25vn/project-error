@@ -1,0 +1,10 @@
+header #nav {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    justify-content: space-between;
+}
+
+header #nav li a {
+    text-decoration: none;
+}

@@ -1,0 +1,378 @@
+header {
+    height: 43px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    z-index: 1;
+}
+
+header #nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: relative;
+}
+
+header #nav li {
+    padding: 14px 16px;
+    display: block;
+}
+
+header #nav li i {
+    padding-right: 4px;
+}
+
+header
+#nav 
+li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+header
+#nav 
+li:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+header
+.nav-icon-search 
+i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+header .nav-icon-search:hover i {
+    background-color: #f44336 !important;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+}
+
+#sidebar .sidebar-img-one {
+    background: url(../assets/image/sidebar1.jpg) center / cover no-repeat;
+    padding-top: calc(27% - 10.18px);
+    opacity: 0.7;
+    position: relative;
+}
+
+#sidebar .sidebar-text-one {
+    background-color: #000 !important;
+    position: absolute;
+    padding: 12px 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 23%;
+    opacity: 0.8;
+}
+
+#sidebar .sidebar-text-one span {
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 10;
+}
+
+#content #about {
+    margin: 0px 270px;
+    padding: 64px 16px;
+}
+
+#content #about .heading-section {
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#content #about .sub-heading-section {
+    margin: 15px 0px;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#content #about .about-section {
+    margin: 15px 0px;
+    line-height: 1.8;
+    opacity: 0.5;
+}
+
+#content #per-dec-one {
+    display: flex;
+}
+
+#content #per-dec-one .per-img-one {
+    padding: 12px 24px;
+    text-align: center;
+}
+
+#content #per-dec-one .per-img-one .heading-per-one {
+    margin: 15px 0px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+#content #per-dec-one .per-img-one .heading-per-one i {
+    padding-right: 8px;
+}
+
+#content #per-dec-one .per-img {
+    width: 100%;
+}
+
+#content #per-dec-one .per-img img {
+    height:  284px;
+    width: 426px;
+    opacity: 0.5;
+}
+
+#content #per-dec-one .per-img-one .per-img img:hover {
+    opacity: 1;
+}
+
+#content #per-dec-one .per-text-one {
+    margin: 15px 0;
+    padding: 12px 24px;
+    opacity: 0.5;
+}
+
+#content #per-dec-one .per-text-one p {
+    line-height: 1.5;
+}
+
+#content .rate .rate-heading-one {
+    margin: 18px 0px;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+#content .rate .rate-heading-one p {
+    font-size: 19px;
+    opacity: 0.5;
+}
+
+.rate .rate-section .rate-section-text-one {
+    margin: 15px 0;
+}
+
+.rate .rate-section .rate-section-text-one p {
+    letter-spacing: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.rate .rate-section .rate-section-bg {
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.rate .rate-section .rate-section-bg .rate-section-sub-bg-one {
+    background-color: #616161;
+    width: 90%;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+.rate .rate-section .rate-section-bg .rate-section-sub-bg-two {
+    background-color: #616161;
+    width: 85%;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+.rate .rate-section .rate-section-bg .rate-section-sub-bg-three {
+    background-color: #616161;
+    width: 75%;
+    padding: 6px 8px;
+    text-align: center;
+}
+
+.rate .rate-section .rate-section-bg p {
+    color: #fff;
+}
+
+#content .sum-number {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #616161;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+#content .sum-number .value-section {
+    color: #fff;
+    margin: 16px 0px;
+}
+
+#content .sum-number .value-section .heading-value {
+    font-size: 24px;
+}
+
+#content .portfolio {
+    background: url(../assets/image/parallax2.jpg) center / cover no-repeat;
+    padding-top: 25%;
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+#content .portfolio .heading-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+#content .portfolio .heading-text p {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 10px;
+}
+
+#content #my-work {
+    margin: 0px 270px;
+    padding: 64px 16px;
+}
+
+#content #my-work .heading-work-one {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#content #my-work .heading-work-one h3 {
+    font-size: 24px;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+#content #my-work .sub-heading-work-one {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#content #my-work .sub-heading-work-one p {
+    font-style: italic;
+    opacity: 0.5;
+}
+
+#content #my-work .work-list-img .work-img-com {
+    padding: 0px 8px;
+    width: 25%;
+}
+
+#content #my-work .work-list-img .work-img-com:hover img {
+    opacity: 0.7;
+}
+
+#content #my-work .work-list-img .work-list-img-one {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+#content #my-work .work-list-img .work-list-img-two {
+    display: inline-flex;
+    margin-top: 16px;
+}
+
+#content #my-work .work-btn {
+    margin-top: 64px;
+    text-align: center;
+}
+
+#content #my-work .work-btn button:hover {
+    background-color: #ccc;
+}
+
+#content #my-work .work-btn button {
+    padding: 17px 24px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#content #contact {
+    background: url(../assets/image/contact.jpg) center / cover no-repeat;
+    width: 100%;
+    padding-top: calc(27% - 10.18px);
+    opacity: 0.8;
+    position: relative;
+}
+
+#content #contact p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 45%;
+    letter-spacing: 10;
+    font-size: 36px;
+    color: white;
+}
+
+#content #map-work {
+    margin: 0px 270px;
+    padding: 64px 16px;
+}
+
+#content #map-work .heading-map {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+#content #map-work .heading-map h3 {
+    font-size: 24px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+#content #map-work .sub-heading-map {
+    margin: 15px 0px;
+    text-align: center;
+}
+
+#content #map-work .sub-heading-map p {
+    font-size: 15px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+#content #map-work .inf-map {
+    display: flex;
+}
+
+
+#content #map-work .inf-map .map-img {
+    width: 30%;
+}
+
+#content #map-work .inf-map .map-img img {
+    width: 284px;
+    padding: 0px 16px;
+    border-radius: 4px;
+}
+
+#content #map-work .inf-map .information-control {
+    margin: 16px 0px;
+    padding: 0px 16px;
+}
+
+#content #map-work .inf-map .inf-hotline i {
+    margin-right: 22px;
+    font-size: 24px;
+    opacity: 0.5;
+}
+
+#content #map-work .inf-map .inf-hotline p {
+    font-size: 24px;
+    opacity: 0.5;
+}
+
+
